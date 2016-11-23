@@ -19,9 +19,9 @@ window.onload=function(){
                 oBox.appendChild(oImg);
             }
             waterfall('main','pin');
-        };
-    }
-}
+        }
+    };
+};
 
 /*
     parend 父级id
@@ -61,7 +61,7 @@ function getClassObj(parent,className){
         if (obj[i].className==className){
             pinS.push(obj[i]);
         }
-    };
+    }
     return pinS;
 }
 /****
